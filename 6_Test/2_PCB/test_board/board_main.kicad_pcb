@@ -3498,7 +3498,7 @@
 		(property "Reference" "F5"
 			(at 0 -1.7145 0)
 			(layer "B.SilkS")
-			(uuid "82b9fb63-a488-4d6e-bbf0-1683a54dd9f5")
+			(uuid "7d396488-f88b-4386-ad61-f9252ecd67c8")
 			(effects
 				(font
 					(size 1 1)
@@ -3510,7 +3510,7 @@
 		(property "Value" "Fiducial_0.5mm_Mask1.5mm"
 			(at 0 1.7145 0)
 			(layer "F.Fab")
-			(uuid "26242e0d-2bbb-462e-b4e6-8e15aa2e76b9")
+			(uuid "d6213b2e-b0d1-446d-aa83-0cd0f2d2730d")
 			(effects
 				(font
 					(size 1 1)
@@ -3567,7 +3567,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "918d0c20-8ba9-4d57-bee5-7f708edead27")
+			(uuid "5cb0b58f-f55f-46dc-b711-ec53816ada2d")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3578,12 +3578,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "f0cf36bc-4cc2-42aa-a073-4de416429857")
+			(uuid "6f19878d-f971-491f-a462-4e719f888a22")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "8ae6f3e8-98bb-4c76-a04c-26f8244cf2f9")
+			(uuid "8a92c611-fe4f-49ab-9ee7-482bf2d004d5")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -3597,7 +3597,7 @@
 			(layers "F.Cu" "F.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "f35ce297-4722-4bdb-ac6b-97c824b55a61")
+			(uuid "1c105634-efa4-40f9-86e7-525e5813c7c1")
 		)
 	)
 	(footprint "SN74LVC245APWRFootprints:PW20"
@@ -7558,7 +7558,7 @@
 		(property "Reference" "F4"
 			(at 0 -1.7145 0)
 			(layer "B.SilkS")
-			(uuid "82b9fb63-a488-4d6e-bbf0-1683a54dd9f5")
+			(uuid "e73ea6cf-e4cc-4f0f-90b6-570d76245390")
 			(effects
 				(font
 					(size 1 1)
@@ -7570,7 +7570,7 @@
 		(property "Value" "Fiducial_0.5mm_Mask1.5mm"
 			(at 0 1.7145 0)
 			(layer "F.Fab")
-			(uuid "26242e0d-2bbb-462e-b4e6-8e15aa2e76b9")
+			(uuid "2ea0549c-ee9f-496a-a32a-db48b7ef1431")
 			(effects
 				(font
 					(size 1 1)
@@ -7627,7 +7627,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "918d0c20-8ba9-4d57-bee5-7f708edead27")
+			(uuid "f8b20104-5828-4f5f-a9be-f24a5d2e2eb5")
 		)
 		(fp_circle
 			(center 0 0)
@@ -7638,12 +7638,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "f0cf36bc-4cc2-42aa-a073-4de416429857")
+			(uuid "2433cfdf-9412-4c0f-a6d6-f79622d03561")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "8ae6f3e8-98bb-4c76-a04c-26f8244cf2f9")
+			(uuid "7b7d319b-47a9-4bab-a46e-37ec73fef6bd")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -7657,7 +7657,7 @@
 			(layers "F.Cu" "F.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "f35ce297-4722-4bdb-ac6b-97c824b55a61")
+			(uuid "d92bfee0-de45-4f27-bc07-f20394c9df9b")
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
@@ -9780,7 +9780,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "Net-(ADC1-IN1)")
@@ -9791,8 +9791,8 @@
 		(pad "2" thru_hole oval
 			(at 0 2.54)
 			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
+			(drill 1)
+			(layers "*.Cu" "*.Mask" "B.Adhes")
 			(remove_unused_layers no)
 			(net 8 "Net-(ADC1-IN2)")
 			(pinfunction "IN2")
@@ -9802,7 +9802,7 @@
 		(pad "3" thru_hole oval
 			(at 0 5.08)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 21 "Net-(ADC1-IN3)")
@@ -9813,7 +9813,7 @@
 		(pad "4" thru_hole oval
 			(at 0 7.62)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 7 "/ADC/VHI")
@@ -9824,7 +9824,7 @@
 		(pad "5" thru_hole oval
 			(at 0 10.16)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "/ADC/VLO")
@@ -9835,7 +9835,7 @@
 		(pad "6" thru_hole oval
 			(at 0 12.7)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Net-(ADC1-IN4)")
@@ -9846,7 +9846,7 @@
 		(pad "7" thru_hole oval
 			(at 0 15.24)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 23 "Net-(ADC1-IN5)")
@@ -9857,7 +9857,7 @@
 		(pad "8" thru_hole oval
 			(at 0 17.78)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 5 "Net-(ADC1-IN6)")
@@ -9868,7 +9868,7 @@
 		(pad "9" thru_hole oval
 			(at 0 20.32)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 18 "Net-(ADC1-PAD)")
@@ -9879,7 +9879,7 @@
 		(pad "10" thru_hole oval
 			(at 0 22.86)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 29 "Net-(ADC1-AVSS)")
@@ -9890,7 +9890,7 @@
 		(pad "11" thru_hole oval
 			(at 0 25.4)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 32 "/ADC/RES")
@@ -9901,7 +9901,7 @@
 		(pad "12" thru_hole oval
 			(at 0 27.94)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 27 "Net-(ADC1-IOVSS-Pad12)")
@@ -9912,7 +9912,7 @@
 		(pad "13" thru_hole oval
 			(at 0 30.48)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 14 "/ADC/CK4")
@@ -9923,7 +9923,7 @@
 		(pad "14" thru_hole oval
 			(at 0 33.02)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "/ADC/CK5")
@@ -9934,7 +9934,7 @@
 		(pad "15" thru_hole oval
 			(at 0 35.56)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 28 "/ADC/CK6")
@@ -9945,7 +9945,7 @@
 		(pad "16" thru_hole oval
 			(at 0 38.1)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 6 "Net-(ADC1-VSS)")
@@ -9956,7 +9956,7 @@
 		(pad "17" thru_hole oval
 			(at 15.24 38.1)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 11 "/ADC/OUT6")
@@ -9967,7 +9967,7 @@
 		(pad "18" thru_hole oval
 			(at 15.24 35.56)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 26 "/ADC/OUT5")
@@ -9978,7 +9978,7 @@
 		(pad "19" thru_hole oval
 			(at 15.24 33.02)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 12 "/ADC/OUT4")
@@ -9989,7 +9989,7 @@
 		(pad "20" thru_hole oval
 			(at 15.24 30.48)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 25 "Net-(ADC1-IOVSS-Pad20)")
@@ -10000,7 +10000,7 @@
 		(pad "21" thru_hole oval
 			(at 15.24 27.94)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 31 "Net-(ADC1-IOVDD-Pad21)")
@@ -10011,7 +10011,7 @@
 		(pad "22" thru_hole oval
 			(at 15.24 25.4)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 19 "/ADC/OUT3")
@@ -10022,7 +10022,7 @@
 		(pad "23" thru_hole oval
 			(at 15.24 22.86)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 10 "/ADC/OUT2")
@@ -10033,7 +10033,7 @@
 		(pad "24" thru_hole oval
 			(at 15.24 20.32)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 22 "/ADC/OUT1")
@@ -10044,7 +10044,7 @@
 		(pad "25" thru_hole oval
 			(at 15.24 17.78)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 17 "Net-(ADC1-VDD)")
@@ -10055,7 +10055,7 @@
 		(pad "26" thru_hole oval
 			(at 15.24 15.24)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 13 "/ADC/CK1")
@@ -10066,7 +10066,7 @@
 		(pad "27" thru_hole oval
 			(at 15.24 12.7)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 20 "/ADC/CK2")
@@ -10077,7 +10077,7 @@
 		(pad "28" thru_hole oval
 			(at 15.24 10.16)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 30 "/ADC/CK3")
@@ -10088,7 +10088,7 @@
 		(pad "29" thru_hole oval
 			(at 15.24 7.62)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "Net-(ADC1-IOVDD-Pad29)")
@@ -10099,7 +10099,7 @@
 		(pad "30" thru_hole oval
 			(at 15.24 5.08)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "/ADC/VLDO")
@@ -10110,7 +10110,7 @@
 		(pad "31" thru_hole oval
 			(at 15.24 2.54)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 15 "/ADC/VREF")
@@ -10121,7 +10121,7 @@
 		(pad "32" thru_hole oval
 			(at 15.24 0)
 			(size 1.6 1.6)
-			(drill 0.8)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 4 "/ADC/AVDD")
@@ -11904,7 +11904,7 @@
 		(property "Reference" "F2"
 			(at 0 -1.7145 0)
 			(layer "F.SilkS")
-			(uuid "82b9fb63-a488-4d6e-bbf0-1683a54dd9f5")
+			(uuid "7fe6d7f7-0e1b-49b2-ad9b-26648e6e5331")
 			(effects
 				(font
 					(size 1 1)
@@ -11915,7 +11915,7 @@
 		(property "Value" "Fiducial_0.5mm_Mask1.5mm"
 			(at 0 1.7145 0)
 			(layer "F.Fab")
-			(uuid "26242e0d-2bbb-462e-b4e6-8e15aa2e76b9")
+			(uuid "d004bc05-0f6c-42a1-ae78-a6896c92a182")
 			(effects
 				(font
 					(size 1 1)
@@ -11972,7 +11972,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "918d0c20-8ba9-4d57-bee5-7f708edead27")
+			(uuid "8c1be39a-2380-411a-9c3b-5282ceba0d0b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -11983,12 +11983,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "f0cf36bc-4cc2-42aa-a073-4de416429857")
+			(uuid "10dff013-725c-435a-a5f5-4aea5c53b6b2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "8ae6f3e8-98bb-4c76-a04c-26f8244cf2f9")
+			(uuid "0bcec84e-7931-4bb2-9e93-08bffa7de854")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -12002,7 +12002,7 @@
 			(layers "F.Cu" "F.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "f35ce297-4722-4bdb-ac6b-97c824b55a61")
+			(uuid "84c42854-18c6-4bba-be85-46adc67f2baa")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
@@ -16303,7 +16303,7 @@
 		(property "Reference" "F3"
 			(at 0 -1.7145 0)
 			(layer "F.SilkS")
-			(uuid "82b9fb63-a488-4d6e-bbf0-1683a54dd9f5")
+			(uuid "956810ad-620a-4457-b2e4-1455ec2d953b")
 			(effects
 				(font
 					(size 1 1)
@@ -16314,7 +16314,7 @@
 		(property "Value" "Fiducial_0.5mm_Mask1.5mm"
 			(at 0 1.7145 0)
 			(layer "F.Fab")
-			(uuid "26242e0d-2bbb-462e-b4e6-8e15aa2e76b9")
+			(uuid "abd80aba-0ad2-4beb-b9a4-ea452f350e6a")
 			(effects
 				(font
 					(size 1 1)
@@ -16371,7 +16371,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "918d0c20-8ba9-4d57-bee5-7f708edead27")
+			(uuid "d44b9f91-340b-4dcc-9fdb-e54ef7cc925f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -16382,12 +16382,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "f0cf36bc-4cc2-42aa-a073-4de416429857")
+			(uuid "a37ee6d6-8823-4668-ad2e-467f347dbaff")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "8ae6f3e8-98bb-4c76-a04c-26f8244cf2f9")
+			(uuid "a0d47ae2-00d4-4b79-a780-bbb887849ff2")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -16401,7 +16401,7 @@
 			(layers "F.Cu" "F.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "f35ce297-4722-4bdb-ac6b-97c824b55a61")
+			(uuid "c7bbd05c-f569-49d9-9a16-5b443d7a0a2f")
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
@@ -21196,7 +21196,7 @@
 		(property "Reference" "F6"
 			(at 0 -1.7145 0)
 			(layer "B.SilkS")
-			(uuid "82b9fb63-a488-4d6e-bbf0-1683a54dd9f5")
+			(uuid "0a59fd99-3376-4dec-a4a2-4400a85bdef0")
 			(effects
 				(font
 					(size 1 1)
@@ -21208,7 +21208,7 @@
 		(property "Value" "Fiducial_0.5mm_Mask1.5mm"
 			(at 0 1.7145 0)
 			(layer "F.Fab")
-			(uuid "26242e0d-2bbb-462e-b4e6-8e15aa2e76b9")
+			(uuid "4881630c-3561-403a-b859-81cf4521e240")
 			(effects
 				(font
 					(size 1 1)
@@ -21265,7 +21265,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "918d0c20-8ba9-4d57-bee5-7f708edead27")
+			(uuid "f0d1d1ff-aedd-461f-bde1-ee48eaea8e22")
 		)
 		(fp_circle
 			(center 0 0)
@@ -21276,12 +21276,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "f0cf36bc-4cc2-42aa-a073-4de416429857")
+			(uuid "1c878954-4978-4f95-b3c6-677fbd4b7db4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "8ae6f3e8-98bb-4c76-a04c-26f8244cf2f9")
+			(uuid "4152d33c-1106-40d9-9f69-28f21a366f46")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -21295,7 +21295,7 @@
 			(layers "F.Cu" "F.Mask")
 			(solder_mask_margin 0.5)
 			(clearance 0.5)
-			(uuid "f35ce297-4722-4bdb-ac6b-97c824b55a61")
+			(uuid "4c947df4-8a9c-47e5-8e9f-b1e01997dae2")
 		)
 	)
 	(footprint "ECE628_lib:potentiometer_10turn"
